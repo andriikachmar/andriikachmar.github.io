@@ -96,6 +96,7 @@ button.accent {
   color: #695DF3;
   cursor: pointer;
   border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 button.primary {
@@ -107,6 +108,7 @@ button.primary {
   color: #FFFFFF;
   cursor: pointer;
   border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .clr-purple {
@@ -185,10 +187,10 @@ button.primary {
 }
 
 .accordion {
-  /* border: 1px solid #e5e5e5; */
   border-radius: 8px;
   background: #fff;
   padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .accordion .accordion-item {
@@ -286,4 +288,19 @@ button.primary {
   display: flex;
   align-items: flex-start;
   gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+  }
+
+  .hero .container {
+    padding: 0;
+  }
+
+  .author-info {
+    align-items: center;
+    flex-direction: column;
+  }
 }
