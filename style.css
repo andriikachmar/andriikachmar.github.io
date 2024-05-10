@@ -284,6 +284,10 @@ button.primary {
   margin: 2em 0;
 }
 
+.author {
+  margin-bottom: 2rem;
+}
+
 .author-info {
   display: flex;
   align-items: flex-start;
